@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>dev@schonfeld.org</em:id>
+    <em:type>2</em:type>
+    <em:name>HN Submitter</em:name>
+    <em:version>1.0</em:version>
+    <em:creator>Michael Schonfeld</em:creator>
+    <em:contributor>Daniel Schonfeld</em:contributor>
+    <em:contributor>Zhanna Schonfeld</em:contributor>
+    <em:description>Auto-submit web page to HN</em:description>
+    <em:aboutURL>chrome://hnsubmitter/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://hnsubmitter/content/options.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>3.0a1</em:minVersion>
+        <em:maxVersion>4.0b8pre</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
